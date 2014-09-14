@@ -1,0 +1,7 @@
+<div id="alert" class="alert alert-dismissable alert-danger" role="alert">
+	<button class="close" data-dismiss="alert">
+		<span aria-hidden="true">&times;</span>
+		<span class="sr-only">Close</span>
+	</button>
+	<span id="message">Read this</span>
+</div>

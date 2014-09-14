@@ -1,0 +1,13 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"created": {
+			"name": "created",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "created",
+			"order": 0
+		}
+	}
+}
