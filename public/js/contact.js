@@ -45,13 +45,13 @@ $(function() {
 				$('#message').text(error.message);
 				return;
 			}
-			window.location.replace('contacts.html');
+			window.location.replace('book.html');
 		};
 		if (window.document.id) {
-			//dpd.contacts.put(window.document.id, fields, relocate);
+			dpd.contacts.put(window.document.id, fields, console.log);
 			console.log('put');
 		} else {
-			//dpd.contacts.post(fields, relocate);
+			dpd.contacts.post(fields, console.log);
 			console.log('post');
 		}
 	}
@@ -60,7 +60,7 @@ $(function() {
 	$('button#delete').on('click', function() {
 		if (!!confirm('It will be deleted, cannot be undone.')) {
 			dpd.contacts.del(window.document.id, function(error) {
-				window.location.replace('contacts.html');
+				window.location.replace('book.html');
 			});
 		}
 	});

@@ -6,7 +6,7 @@ $(function() {
 			return;
 		}
 		if (!!me) {
-			window.location.replace('contacts.html');
+			window.location.replace('book.html');
 		}
 	});
 	$('form').submit(function() {
@@ -24,7 +24,7 @@ $(function() {
 				$('#message').text(error.message);
 				return false;
 			}
-			window.location.replace('contacts.html');
+			window.location.replace('book.html');
 		})
 		return false;
 	});
